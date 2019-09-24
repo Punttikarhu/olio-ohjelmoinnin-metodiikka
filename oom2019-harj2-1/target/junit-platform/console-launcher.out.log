@@ -1,0 +1,62 @@
+timestamp = 2019-09-23T10:18:40.050795, CalculatorTest:testi1 = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation-mode = RANDOMIZED  | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+seed = 325267286368235407     | random seed to reproduce generated values
+
+
+timestamp = 2019-09-23T10:18:40.148844, CalculatorTest:testi2 = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation-mode = RANDOMIZED  | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+seed = 6899375891624687300    | random seed to reproduce generated values
+
+
+timestamp = 2019-09-23T10:18:40.233623, CalculatorTest:testi3 = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation-mode = RANDOMIZED  | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+seed = -8143984211486852088   | random seed to reproduce generated values
+
+
+timestamp = 2019-09-23T10:18:40.252999, CalculatorTest:toimii = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation-mode = RANDOMIZED  | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+seed = -3836665330193682559   | random seed to reproduce generated values
+
+
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+.
++-- jqwik (JUnit Platform) [OK]
+| '-- CalculatorTest [OK]
+|   +-- testi1 [OK]
+|   +-- testi2 [OK]
+|   +-- testi3 [OK]
+|   '-- toimii [OK]
+'-- JUnit Jupiter [OK]
+
+Test run finished after 975 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         4 tests successful      ]
+[         0 tests failed          ]
+
